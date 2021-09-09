@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<html>
+<head>
+<title>Africa</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<script src="https://kit.fontawesome.com/7f4e7dd9d8.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="style.css">
+</head>    
+<body >
+  <div>
+      <header style="background-color: rgb(23, 143, 23); height: 60px;">
+        <div class="container-fluid">
+          <nav class="navbar navbar-default">
+            <div class="navbar-header">
+              <button type="button" onclick="bineaivenit()" class="btn btn-success" style="background-color: green; color: white;">SALUT!</button>
+              <button type="button"  class="btn btn-success" style="background-color: green; color: white; text-decoration: none;"><a href="#sfarsit" style="color: white;text-decoration: none;">DESPRE<a></button>
+                <button type="button"  class="btn btn-success" style="background-color: green; color: white; text-decoration: none;"><a href="#istorie" style="color: white;text-decoration: none;">ISTORIA AFRICII<a></button>
+                <button type="button"  class="btn btn-success" style="background-color: green; color: white; text-decoration: none;"><a href="#regiuni" style="color: white;text-decoration: none;">REGIUNILE AFRICII<a></button>
+                <button type="button"  class="btn btn-success" style="background-color: green; color: white; text-decoration: none;"><a href="#fauna" style="color: white;text-decoration: none;">FAUNA AFRICII<a></button>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <main>
+       <div class="container-fluid"> 
+          <div class="row"><!--clasa row este folosita pentru a aseza elementele pe acelasi "rand"-->
+            <div class="col-sm-6"><!--clasa col-sm-6 iti va imparti pagina in doua coloane.
+                                  Clasa col-sm-4 imparte pagina in trei coloane.
+                                  Clasa col-sm si clasa col imparte pagina in patru coloane
+                                  Obs: Fiecare element trebuie pus intr-un div caruia i se atribuie clasa de tip col-sm-->
+              <div style="padding: 10% 10%;">
+                <h1 style="color: ivory;">Ce trebuie sa stim despre acest continent?</h1>
+                <p style="text-indent: 15px;color: ivory;">
+                  Africa este al doilea continent ca mărime de pe Terra și cel mai populat după Asia. În Africa se găsește Nilul, cel mai lung fluviu din lume și Sahara, cel mai mare deșert din lume. Cel mai înalt punct al continentului este Muntele Kilimanjaro din Tanzania (5.895 m), iar cel mai jos punct este lacul Assal situat în micuța țară Djibouti (156 m sub nivelul mării). 
+                  Africa are o suprafață de 30.244.050 km² incluzând și insulele adiacente, ocupă 20,3% din suprafața terestră a planetei. Cu peste 800 de milioane de locuitori în 54 de țări, Africa este gazdă a unei șeptimi din populația totală de pe glob.
+                  În Africa își are originea rasa umană, de-a lungul văii Marelui Rift African ce traversează Etiopia și Kenya fiind descoperite cele mai vechi schelete ale înaintașilor oamenilor de azi.</p>
+              </div>
+            </div>
+            <div class="col-sm-6"><img src="africa.png" style="margin: 20% 30%;"></div>
+          </div>
+          <div>
+            <h1 style="color: ivory; padding: 0% 40%;" id="istorie">Istoria Africii</h1>
+            <p style="color: ivory; text-indent: 15px;padding:2% 5%;">
+              Africa este cel mai vechi teritoriu locuit de pe pământ, rasa umană avându-și originea pe acest continent. Începând cu secolul 19, dar mai ales pe parcursul secolului 20, diverși antropologi au descoperit fosile și alte dovezi ce atestă prezența în Africa a unor specii umanoide acum 7 milioane de ani. De-a lungul perioadei preistorice, în Africa nu au existat state organizate, continentul fiind locuit de grupuri de vânători/culegători, organizate în structuri tribale, precum Khoi și San (cunoscuți și sub numele de boșimani). Majoritatea urmașilor de azi ai boșimanilor trăiesc în Botswana și Namibia, iar limba vorbită de ei, limba N/U, este considerata cea mai veche limbă ce a supraviețuit până azi.
+            </p>
+          </div>
+          <div class="row">
+            <div class="col-sm-6">
+              <div style="margin-left:10%;">
+                <img src="AfricaRvolution.jpg" class="rounded mx d-block"> <!--daca in denumirea clasei rounded mx d-block adaugi -auto dupa mx imaginea va fi centrata-->
+               </div> 
+            </div>
+            <div class="col-sm-6">
+              <div style="margin: 0% 40%;">   
+                <button class="btn btn-info" onclick="revolutie()">Apasa-ma</button>
+              </div>
+              <div style="color: ivory;margin-top: 20%; font-size: 34px;"><!--acest div este folosit pentru a-mi pozitiona textul pe coloana unde este si butonul Apasa-ma.Daca nu scriam acest div imi punea textul in interiorul butonului.-->
+                <p id="butonulalbastru" ></p>
+              </div> 
+            </div> 
+          </div> 
+          <div>
+              <h1 id="agricultura" style="text-align: center;color: ivory;">Agricultura</h1>
+          </div> 
+          <div>
+              <p style="color: ivory;margin: 5% ;">
+                În aproape toate țările din Africa agricultura continuă să fie cea mai importantă activitate economică, în ciuda expansiunii industriei si serviciilor si a importantei din ce în ce mai mari a acestor activităti. Agricultura este o ramură cu un caracter dualist, utilizând atât tehnici rudimentare, tradiționale, cât și tehnici moderne, de mare randament. În Africa există un amestec de forme de proprietate si de sisteme de exploatare a terenurilor, determinate de conditiile naturale, dar si de cele sociale. Coexistă în acest continent sistemul citemené (agricultura itinerantă) cu plantațiile intensive sau păstoritul nomad cu fermele zootehnice moderne.
+                Agricultura însumează aproximativ 1/6 din produsul intern brut al Africii, în timp ce industria însumează cam 1/3 și serviciile in jur de jumătate.
+              </p>
+          </div>
+          <div>
+            <img src="despre_bumbac.jpg" alt="Eroare la deschidere" class="rounded-circle">
+          </div>
+          <div>
+            <h1 style="text-align: center;color: ivory;padding: 5%;" id="regiuni">Regiunile Africii</h1>
+          </div>
+          <div class="row">
+            <div class="col-sm-6">
+              <p style="color: ivory;margin: 30% 10%;border-color: lavender;">Pentru a afla mai multe informatii despre regiunile Africii interactioneaza cu imaginea din stanga. In urma interactiunii vei afla mai multe despre regiunile Africii si vei realiza faptul cat de vast este "continentul negru".</p>
+            </div>
+              <div class="col-sm-6">
+                <img src="Africaregions.jpg" alt="Eroare la deschidere" class="imagine2" usemap="#regiuniAfrica">
+                <map name="regiuniAfrica">
+                    <area shape="circle" coords="70,110,50" href="https://ro.wikipedia.org/wiki/Africa_Occidental%C4%83">
+                    <!--primele doua cifre din tagul coords reprezinta distanta in pixeli de la stanga pana in punctul nostru, 
+                    respectiv distanta in pixeli de la latura superioara la punctul nostru. A treia valoare reprezinta diametrul 
+                    cercului. -->
+                    <area shape="rect" coords="40,40,200,100" href="https://ro.wikipedia.org/wiki/Africa_Nordic%C4%83">
+                    <!--Aceeasi explicatie de mai sus, avand de data aceasta doua puncte care, unite, formeaza diagonala patrulaterului.-->
+                    <area shape="poly" coords="160,90,130,190,130,290,160,290,160,190" href="https://ro.wikipedia.org/wiki/Africa_Central%C4%83">
+                    <area shape="poly" coords="200,120,190,290,250,150" href="https://ro.wikipedia.org/wiki/Africa_R%C4%83s%C4%83ritean%C4%83">
+                    <area shape="circle" coords="150,300,40" href="https://ro.wikipedia.org/wiki/Africa_Sudic%C4%83">
+                </map>
+              </div>
+            </div>
+            <div>
+              <h1 style="text-align: center;color: ivory;" id="fauna">
+                Fauna Africii
+              </h1>
+              <p style="color: ivory; margin: 5% 15%;">
+                Fauna Africii este una dintre cele mai complexe faune de pe glob. Cand ne gandim la animale exotice, primul cuvant care ne vine in monte este "Africa"
+                Tocmai din acest motiv, ne-am gandit ca ar fi minunat daca ai avea ocazia sa asculti sunetele emanate de cateva specii de pe continentul african.
+              </p>
+              <p style="text-align: center; color: ivory;">
+                Sunet animale erbivore:
+              </p>
+              <div>
+                <audio controls><source src="Animal Voices for Children  Giraffe Sounds  Giraffe Sounds Effect.mp3" type="audio/mp3"></audio>
+              </div>
+                <audio controls><source src="Elephant Sound Effects.mp3" type="audio/mp3"></audio>
+              </div>
+              <p style="text-align: center; color: ivory;">
+                Sunet animale carnivore:
+              </p>
+              <div>
+                <audio controls><source src="Cheetah Roar.mp3" type="audio/mp3"></audio>
+              </div>
+                <audio controls><source src="Leopard Sound Effect.mp3" type="audio/mp3"></audio>
+              </div>
+                <audio controls><source src="Tiger Roar Sounds Effect.mp3" type="audio/mp3"></audio>
+                </div>
+              
+            </div> 
+            <footer id="myfooter">
+              <div>
+                <p id="sfarsit">
+                 Daca iubesti natura si vrei sa te alaturi comunitatii noastre pentru a ne cunoaste mai bine ne poti gasi pe:
+                </p>
+              </div>
+              <div class="row">
+                <div class="col-sm-4">
+                 <a href="https://www.facebook.com/animalplanet.romania/"><i class="fab fa-facebook fa-3x"></i></a>
+                </div>
+                <div class="col-sm-4">
+                  <a href="https://www.youtube.com/user/AnimalPlanetTV"><i class="fab fa-youtube fa-3x" ></i></a>
+                </div>
+                <div class="col-sm-4">
+                  <a href="https://www.instagram.com/animalplanet/?hl=ro"><i class="fab fa-instagram fa-3x"></i></a>
+                </div>
+            </div>
+            <div class="col-md">
+              <p style="text-align: center;color: ivory;">
+                Copyright &copy; 2020. All rights reserved.
+              </p>
+            </div>
+            </footer> 
+          </div> 
+        </div>
+      </main>
+  </div>
+<script src="style.js"></script>
+</body>
+</html>
